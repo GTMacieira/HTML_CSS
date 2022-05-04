@@ -1,0 +1,25 @@
+div{
+    background-color: black;
+    border-radius:100px;
+    width: 200px;
+    height: 200px;
+    border:3px solid darkgreen;
+}
+
+h1{
+    border:5px dotted #000;
+}
+
+h2{
+    border-top:5px dashed #000;
+}
+
+h3{
+    border-bottom:5px double #0f0;
+}
+
+img{
+    border: 5px solid red;
+    border-radius:10px;
+    overflow: hidden;
+}
