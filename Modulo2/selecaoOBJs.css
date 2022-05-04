@@ -1,0 +1,15 @@
+#titulo{
+    color: red;
+}
+
+.paragTxt{
+    color: gray;
+}
+
+#titulo, .paragTxt{
+    font-size: 40px;
+}
+
+ol li{
+    color: pink;
+}

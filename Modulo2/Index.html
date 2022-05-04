@@ -3,37 +3,37 @@
 <head>
     <meta charset="UTF-8"/>
     <title>Página de teste</title>
-    <link rel="stylesheet" href="estilo.css"/>
-    <style>
-        h2 {
-            color: blue;
-            font-size: 15px;
-        }
-        a{
-            color: green;
-        }
-        img{
-            height: 30px;
-        }
-    </style>
+    <link rel="stylesheet" href="selecaoOBJs.css"/>
+    <!--    <style>
+            h2 {
+                color: blue;
+                font-size: 15px;
+            }
+            a{
+                color: green;
+            }
+            img{
+                height: 30px;
+            }
+        </style> -->
 
 </head>
 <body>
-    <h1 style="color: brown; font-size: 40px;">Título em H1</h1>
-    <h2>Título em H2</h2>
-    <h3>Título em H3</h3>
+    <h1 style="color: brown; font-size: 40px;">Título em H1</h1> <!--cor via CSS inline-->
+    <h2 id="titulo">Título em H2</h2>
+    <h3 >Título em H3</h3>
     <h3>Título em H6</h3>
-    <p>Exemplo de patagrafo</p>
+    <p class="paragTxt">Exemplo de patagrafo</p>
     <p>Mais um exemplo de paragrafo</p>
-    <a href="https://www.google.com.br" style="font-size: 30px;">Ancoramento</a>
+    <a href="https://www.google.com.br" style="font-size: 30px;">Ancoramento</a> <!--tamanho da fonte via CSS inline-->
     <br/>
-    <img src="https://www.google.com.br/google.jpg" alt="Logo do Google" style="width: 100px"/>
+    <img src="https://www.google.com.br/google.jpg" alt="Logo do Google" style="width: 100px"/> <!--altura da imagem via CSS inline-->
     <br/>
     <button>Clique em mim!</button>
     <br><br>
     <ul>
         <li>EXEMPLO DE LISTS DESORDENADA</li>
-        <li>item1</li>
+        <li class="paragTxt">item1</li>
         <li>item2</li>
         <li>item3</li>
     </ul>
@@ -41,8 +41,11 @@
     <ol>
         <li>EXEMPLO DE LISTS ORDENADA</li>
         <li>item1</li>
-        <li>item2</li>
+        <li class="paragTxt">item2</li>
         <li>item3</li>
     </ol>
 </body>
 </html>
+
+
+<!--class pode ser colocado em varios itens, id apenas em um especifico-->
