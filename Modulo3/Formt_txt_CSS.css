@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 50px;
+    font-size: 17px;
+}
+
+p{
+    color: #452683;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: comic sans MS, helvetica;
+    text-align: justify;/*left, center, right*/
+}
+
+a{
+    text-decoration: none; /*over-line, line-throug*/
+
+}
+
+a:hover{
+    text-decoration: underline;
+}
