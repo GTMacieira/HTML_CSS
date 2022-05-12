@@ -10,16 +10,21 @@ body{
 p{
     color: #452683;
     font-size: 15px;
-    font-weight: bold;
+    /* font-weight: bold;*/
     font-family: comic sans MS, helvetica;
     text-align: justify;/*left, center, right*/
+    text-shadow: 0px 2px 3px #123456;/*movmenta sombra a ditreita, movimenta sombra para baixo, esfumaçameto, cor*/
+    /*line-height: 40px;
+    word-spacing: 20px;
+    letter-spacing: 10px;
+    text-transform: uppercase;lower case*/
 }
 
-a{
-    text-decoration: none; /*over-line, line-throug*/
+/*a{
+    text-decoration: none; /*over-line, line-throug
 
 }
 
 a:hover{
     text-decoration: underline;
-}
+}*/
