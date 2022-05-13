@@ -1,0 +1,24 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 50px;
+    font-size: 17 px;
+}
+
+table{
+    width: 600px;
+}
+
+table thead{
+    background-color: aquamarine;
+}
+
+table tbody{
+    background-color: azure;
+}
+
+td, th{
+    border: 1px solid #000;
+}
