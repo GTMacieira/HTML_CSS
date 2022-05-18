@@ -15,10 +15,27 @@ table thead{
     background-color: aquamarine;
 }
 
+th{
+    font-weight: normal;
+}
+
 table tbody{
     background-color: azure;
 }
 
 td, th{
-    border: 1px solid #000;
+    /*border: 1px solid #000;*/
+    text-align: left;
+}
+
+tbody tr:hover{
+    background-color: rgb(181, 245, 245);
+}
+
+/*tbody td{
+    border-bottom: 1px solid gray ;
+}*/
+
+tbody tr:nth-child(even){
+    background-color: aquamarine;
 }
