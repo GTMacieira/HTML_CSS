@@ -11,14 +11,46 @@
     <h2>Área de cadastro</h2>
     <form action="login.html"method="GET">
 
-        <input type="text" name="usuario" placeholder="Nome" />
-
+        <Label for="nome">Nome Completo:</Label>
+        <input type="text" name="usuario" placeholder="Nome" id="nome" /> 
+        <br/>
+        <input type="checkbox" name="usuario" id="teste"/> 
+        <Label for="teste">label para o checkbox</Label>
+        <br/>
+        <input type="color" name="usuario"/> 
+        <br/>
+        <input type="date" name="usuario"/> 
+        <br/>
+        <input type="datetime" name="usuario"/> 
+        <br/>
+        <input type="datetime-local" name="usuario"/> 
+        <br/>
+        <label> Email:
+            <input type="email" name="usuario" id="email"/> <!--Seguindo este formato, não é necessario o uso de for-->
+        </label>
+        <br/>
+        <input type="file" name="usuario"/> 
+        <br/>
+        <input type="hidden" name="usuario"/> 
+        <br/>
+        <input type="image" name="usuario"/> 
+        <br/>
+        <input type="month" name="usuario"/> 
+        <br/>
+        <input type="number" name="usuario"/> 
+        <br/>
         <select name="ordenacao" size="2" multiple>
             <option value="1">Opção 1</option>
             <option value="2">Opção 2</option>
             <option value="3"selected>Opção 3</option>
         </select>
+        <br/>
+        <button name="usuario">Texto do botão</button>
+        <br/>
+        <textarea name="usuario">
 
+        </textarea>
+        <br/>
         <input type="submit" value="Cadastrar" />
     </form>
 
