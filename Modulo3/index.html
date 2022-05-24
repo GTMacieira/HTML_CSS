@@ -16,7 +16,22 @@
             <br/>
             <label>
                 Sobrenome:<br/>
-                <input type="text" name="Lastname" required minlength="2"/>    
+                <input type="text" name="Lastname"  minlength="2"/>    
+            </label>
+            <br/>
+            <label>
+                Idade:<br/>
+                <input type="number" name="Age"/><!--Step para o passo, min e max define menor e maior valor-->    
+            </label>
+            <br/>
+            <label>
+                Aniversário:<br/>
+                <input type="date" name="barthday" required/><!--min e max define menor e maior data que pode ser selecionada-->    
+            </label>
+            <br/>
+            <label>
+                Email:<br/>
+                <input type="text" name="email" pattern="" required/><!--em patterns usar expressões regulares-->   
             </label>
         </fieldset>
 
