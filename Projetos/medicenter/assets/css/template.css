@@ -139,3 +139,51 @@ nav a:hover{
     margin-top: 30PX;
     margin-bottom: 20px;
 }
+.widget_title_text{
+    color:#000000;
+    font: size 21px;
+    font-weight: bold;
+}
+.widget_title_bar{
+    width: 50px;
+    height: 2px;
+    background-color: #36e9e1;
+    margin: 10px;
+}
+.deparments_body{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.deparments_box{
+    width: 145px;
+    height: 145px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #36a9e1;
+}
+.appointment_text{
+    display:Flex;
+    border-bottom: 1px solid #ccc;
+    align-items:center;
+}
+.descr_appointment{
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+.text_appointment{
+    font-size:14px;
+    margin-top:25px;
+    margin-bottom: 25px;
+}
+.icon{
+    background-color: #ccc;
+    padding: 5px;
+    margin: 5px;
+    height: 20px;
+    width: 20px;
+}
+img{
+    height: 20px;
+    width: 20px;
+}
